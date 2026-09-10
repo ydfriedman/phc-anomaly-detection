@@ -16,8 +16,8 @@ You do not need VS Code, Git, a database, or programming experience to use the a
 ### Windows: simplest route
 
 1. Install Python from [python.org](https://www.python.org/downloads/). During installation, enable **Add Python to PATH**.
-2. Download the project as a ZIP file and extract it, or copy the project folder to the laptop.
-3. Open the extracted project folder in File Explorer.
+2. On the GitHub repository page, click the green **Code** button, choose **Download ZIP**, and save the ZIP file.
+3. Right-click the downloaded ZIP file, choose **Extract All**, and open the extracted project folder.
 4. Double-click `run_app.bat`. This is the Windows start file.
 5. A black window will open. Leave it open while using the app. The first start may take several minutes while setup completes.
 6. Open the web address shown in that window, usually `http://localhost:8501`.
@@ -26,28 +26,29 @@ You do not need VS Code, Git, a database, or programming experience to use the a
 ### macOS or Linux: simplest route
 
 1. Install Python 3.10 or newer from [python.org](https://www.python.org/downloads/) or the operating system's package manager.
-2. Download and extract the project, or copy the project folder to the laptop.
-3. Open the **Terminal** application. This is a text-based window where you can start the app by typing commands.
-4. Move into the project folder. For example, if it is in Downloads, type:
+2. On the GitHub repository page, click the green **Code** button, choose **Download ZIP**, and save the ZIP file.
+3. Open the ZIP file and extract the project folder to Downloads or another convenient location.
+4. Open the **Terminal** application. This is a text-based window where you can start the app by typing commands.
+5. Move into the project folder. For example, if it is in Downloads, type:
 
 ```bash
 cd ~/Downloads/SA_AD
 ```
 
-5. Allow the start file to run. Type:
+6. Allow the start file to run. Type:
 
 ```bash
 chmod +x run_app.sh
 ```
 
-6. Start the app:
+7. Start the app:
 
 ```bash
 ./run_app.sh
 ```
 
-7. Open the web address shown in the terminal, usually `http://localhost:8501`.
-8. Leave the Terminal window open while using the app. Press `Ctrl+C` in that window when you are finished.
+8. Open the web address shown in the terminal, usually `http://localhost:8501`.
+9. Leave the Terminal window open while using the app. Press `Ctrl+C` in that window when you are finished.
 
 The start file creates a private app setup on the laptop, installs the supporting packages, and opens the app. In the app, choose **Use workbook in workspace** if the workbook is inside the project folder, or choose **Upload workbook** if it is elsewhere.
 
